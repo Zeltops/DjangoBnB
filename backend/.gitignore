@@ -1,0 +1,42 @@
+# Python files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Django files and folders
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled, generated, or cached files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
